@@ -31,5 +31,7 @@ public class Exercicio1 {
             System.out.println("\nSeu nome não é maior que o de seus pais!");
         }
         System.out.println("\nNome: " + nome + "\nIdade: " + Integer.parseInt(idade) + " anos\nNome da Mãe: "+ nomeMae + "\nNome do Pai: " + nomePai);
+
+        scanner.close();
     }
 }

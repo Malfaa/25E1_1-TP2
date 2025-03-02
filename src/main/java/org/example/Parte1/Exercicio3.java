@@ -35,5 +35,7 @@ public class Exercicio3 {
         }
 
         System.out.printf("O valor convertido é de: %s%.2f \n", tipo, valorConvertido);
+
+        scanner.close();
     }
 }

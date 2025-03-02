@@ -22,5 +22,7 @@ public class Exercicio4 {
         Após uma pesquisa, o cálculo de dias está considerando os anos bissextos, a classe LocalDate e o método
         ChronoUnit.DAYS.between() são projetados para lidar automaticamente com os anos bissextos.
          */
+
+        scanner.close();
     }
 }

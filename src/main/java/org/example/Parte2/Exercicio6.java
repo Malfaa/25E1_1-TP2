@@ -27,9 +27,6 @@ public class Exercicio6 {
             System.out.printf("O ano de %d não é bissexto!", ano);
         }
 
-    }
-
-    boolean verificarBissexto(){
-        return false;
+        scanner.close();
     }
 }

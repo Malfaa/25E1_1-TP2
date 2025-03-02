@@ -16,6 +16,8 @@ public class Exercicio8 {
         int c = scanner.nextInt();
 
         System.out.println("O tipo do triângulo é: " + verificarTipoTriangulo(a, b, c));
+
+        scanner.close();
     }
 
     static String verificarTipoTriangulo(int a, int b, int c){

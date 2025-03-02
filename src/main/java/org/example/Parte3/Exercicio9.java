@@ -3,7 +3,7 @@ package org.example.Parte3;
 import java.util.Scanner;
 
 public class Exercicio9 {
-    public static void main(String[] args) { //TESTAR
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite uma senha");
@@ -17,5 +17,6 @@ public class Exercicio9 {
         }
 
         System.out.println("Senha confirmada com sucesso!");
+        scanner.close();
     }
 }

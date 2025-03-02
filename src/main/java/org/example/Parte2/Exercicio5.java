@@ -27,5 +27,7 @@ public class Exercicio5 {
         ("O valor informado NÃO teve desconto, ficou por R$"+ valor+ "\n");
 
         System.out.printf(resultado);
+
+        scanner.close();
     }
 }

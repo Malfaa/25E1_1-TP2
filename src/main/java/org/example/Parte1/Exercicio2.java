@@ -25,5 +25,7 @@ public class Exercicio2 {
         }else{
             System.out.println("Usuário foi REPROVADO! (Nota Final: " + media + ")");
         }
+
+        scanner.close();
     }
 }

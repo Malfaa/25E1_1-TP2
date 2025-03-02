@@ -9,10 +9,7 @@ public class Exercicio7 {
         System.out.println("Digite seu salário bruto anual: ");
         double salarioBruto = scanner.nextDouble();
 
-//        System.out.println("Digite o valor total das deduções: ");
-//        double deducoes = scanner.nextDouble();
-        double imposto = 0;
-//        double valor = salarioBruto ;
+        double imposto;
 
         if(salarioBruto <= 30000){
             imposto = 0;
@@ -29,6 +26,7 @@ public class Exercicio7 {
         } else {
             System.out.printf("Imposto de renda a pagar: R$ %.2f%n", imposto);
         }
-        System.out.println(salarioBruto - imposto);
+        System.out.println("Salário Líquido: R$" + (salarioBruto - imposto));
+        scanner.close();
     }
 }
